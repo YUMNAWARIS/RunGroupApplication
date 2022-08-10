@@ -1,11 +1,17 @@
 using RunGroupWebApp.Data;
 using Microsoft.EntityFrameworkCore;
 using RunGroopWebApp.Data;
+using RunGroupWebApp.Data.InterfaceRepository;
+using RunGroupWebApp.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddScoped<IClubRepository, ClubRepository>();
+builder.Services.AddScoped<IRaceRepository, RaceRepository>();
+
+
 builder.Services.AddDbContext<ApplicationDBContext>(options =>
 {
     options.UseNpgsql(builder.Configuration.GetConnectionString("Postgresql"));

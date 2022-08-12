@@ -33,3 +33,5 @@ D:\C#\RunGroupWebApp\RunGroupWebApp\bin\Debug\net6.0\Microsoft.Extensions.Cachin
 D:\C#\RunGroupWebApp\RunGroupWebApp\bin\Debug\net6.0\Npgsql.dll
 D:\C#\RunGroupWebApp\RunGroupWebApp\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
 D:\C#\RunGroupWebApp\RunGroupWebApp\obj\Debug\net6.0\RunGroupWebApp.csproj.CopyComplete
+D:\C#\RunGroupWebApp\RunGroupWebApp\bin\Debug\net6.0\CloudinaryDotNet.dll
+D:\C#\RunGroupWebApp\RunGroupWebApp\bin\Debug\net6.0\Newtonsoft.Json.dll

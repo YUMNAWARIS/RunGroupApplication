@@ -8,19 +8,16 @@
 <section>
     <div class="container">
         <div class="row">
-            <img alt="Image" 
-                src="https://www.eatthis.com/wp-content/uploads/sites/4/2020/05/running.jpg?quality=82&amp;
+            <div class="col-md-6" style="">
+                <img alt="Image" 
+                src="@Model.Image;
                 strip=1&amp;resize=640%2C360" 
                 class="rounded img-fluid">
-        </div>
-
-        <div class="row">
+            </div>
+            <div class="col-md-5">
             <p class="h1">@Model.Title</p>
             <p class="h6">@Model.Description</p>
-        </div>
-
-        <div class="row">
-            <div class="col-12 col-md-4">
+            <div class="">
               <!-- end card -->
               <div class="card">
                 <ul class="list-group list-group-flush">
@@ -54,6 +51,12 @@
               <!-- end card -->
             </div>
         </div>
+
+
+        </div>
+
+
+       
 
     </div>
 
